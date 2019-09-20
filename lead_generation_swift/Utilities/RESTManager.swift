@@ -40,8 +40,8 @@ class RESTManager {
             let request = configureRequestFor(url, method: method, parameters: parameters)
             
             let task = session.dataTask(with: request) { (data, response, error) in
-                var status = Status.success
-                if let httpResponse = response as? HTTPURLResponse {
+                let status = Status.success
+                if (response as? HTTPURLResponse) != nil {
                     //status = Status.init(rawValue: httpResponse.statusCode)!
                 }
                 
