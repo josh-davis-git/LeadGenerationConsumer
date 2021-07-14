@@ -9,8 +9,8 @@
 import UIKit
 
 let IS_LOGGED_IN = "IS_LOGGED_IN"
-let API_URL = "https://markettech.leadportal.com/new_api/api.php"
-let KEY = "0twfI.0g0r9YUWC_-r9YI.ud0KL6I.0gUr9YUW9_0t8s-.bfIWFRXWsO"
+let API_URL = "" // add api_url
+let KEY = "" // add key
 
 struct Storyboards {
     static let main = "Main"
